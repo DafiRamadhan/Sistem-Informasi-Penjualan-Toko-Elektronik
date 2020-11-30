@@ -1,0 +1,169 @@
+html, body {
+    background: #347fd4;
+    margin: 0;
+  }
+  div {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+  h1 {
+    font-size: 30pt;
+    color: rgb(230, 138, 0);
+    text-shadow: 1px 1px 5px #000000;
+    font-family: Arial;
+  }
+  .pencarian {
+  font-family: Arial;
+  font-size: 20px;
+  color: #444;
+  border-collapse: collapse;
+  border: 1px;
+	border-radius: 1em;
+	overflow: hidden;
+	background-color: transparent;
+  }
+  .pencarian td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  border-collapse: collapse;
+  border: 5px;
+	border-radius: 0em;
+	overflow: hidden;
+	background-color: #33a329;
+  }
+
+  input[type="text"],
+  textarea {
+    width:5cm;
+    padding:8px; 
+    font-size:15px; 
+    border-radius:9px; 
+    background-color:#ffffff; 
+    border-color:#2c1c75; 
+    border-style:solid; 
+    border-width:4px; 
+    box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75); 
+    text-shadow:0px 0px 0px rgba(42,42,42,.75);
+    text-align: center;
+  }
+
+  input[type=submit] {
+    text-transform: capitalize;
+	cursor: pointer;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px #0b4f86;
+	-webkit-box-shadow: #da0d6c 0px -15px 30px 5px inset;
+	box-shadow: #373acc 0px -15px 30px 5px inset;
+	padding-top: 10px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	border-radius: 5px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #c77274;
+	border-bottom: 3px solid #72633f;
+	background: #3b65b4;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: ease;
+	transition-property: background;
+	transition-duration: 300ms;
+	transition-timing-function: ease;
+	outline: none;
+  position: relative;
+  width: 5cm;
+  }
+  input[type=submit]:hover {
+    background: #f04343;
+    -webkit-box-shadow: #df3131 0px -15px 30px 5px inset;
+    box-shadow: #dd0808 0px -15px 30px 5px inset;
+  }
+
+  .tabel {
+    font-family: Arial;
+    color: #444;
+    border-collapse: collapse;
+    border: 1px;
+	border-radius: 1em;
+	overflow: hidden;
+	background-color: #e9f6fb;
+  }
+
+  .tabel th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #b8b52a;
+	color: black;
+  }
+ 
+  .tabel tr th{
+    background: #b8b52a;
+    color: rgb(0, 0, 0);
+	text-align: center;
+    font-weight: normal;
+  }
+ 
+  .tabel, th, td {
+    padding: 8px;
+    border: 2px solid #347fd4;
+    padding: 8px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0); 
+  }
+ 
+  .tabel tr:hover {
+    background-color: #33a329;
+  }
+ 
+  .tabel tr:nth-child(odd) {
+    background-color:#a8eebf;
+  }
+
+  .button {
+	text-transform: capitalize;
+	cursor: pointer;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px #8a0000;
+	-webkit-box-shadow: #cc0f0f 0px -15px 30px 5px inset;
+	box-shadow: #e02c2c 0px -15px 30px 5px inset;
+	padding-top: 10px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	border-radius: 5px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #c77274;
+	border-bottom: 3px solid #72633f;
+	background: #d86e54;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: ease;
+	transition-property: background;
+	transition-duration: 300ms;
+	transition-timing-function: ease;
+	outline: none;
+    position: relative;
+    width: 10cm;
+}
+.button:hover {
+    background: #e4f043;
+    -webkit-box-shadow: #e2df25 0px -15px 30px 5px inset;
+	box-shadow: #f7e013 0px -15px 30px 5px inset;
+}
+.button:active {
+    top: 1px;
+}

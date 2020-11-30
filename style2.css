@@ -1,0 +1,111 @@
+html, body {
+    background: #e6da40;
+    margin: 0;
+  }
+  div {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+  h1 {
+    font-size: 30pt;
+    color: rgb(180, 20, 20);
+    font-family: Arial;
+  }
+
+  h2 {
+    font-size: 20;
+    color: rgb(0, 0, 0);
+    font-family: Arial;  
+  }
+  h3 {
+    font-size: 20;
+    color: rgb(0, 0, 0);
+    font-family: Arial;  
+  }
+  .menu {
+    padding-bottom: 0em;
+    margin: 2em auto;
+    width: 40em;
+    height: 30em;
+    background: rgb(127, 206, 36);
+    border-radius: 5px;
+    border-style: solid;
+	border-color: #a03537;
+  }
+  
+  .button {
+	text-transform: capitalize;
+	cursor: pointer;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px #8a0000;
+	-webkit-box-shadow: #1956c8 0px -15px 30px 5px inset;
+	box-shadow: #147da7 0px -15px 30px 5px inset;
+	padding-top: 10px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	border-radius: 5px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #c77274;
+	border-bottom: 3px solid #72633f;
+	background: #3fc9db;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: ease;
+	transition-property: background;
+	transition-duration: 300ms;
+	transition-timing-function: ease;
+	outline: none;
+    position: relative;
+    width: 14cm;
+}
+.button:hover {
+    background: #e4f043;
+    -webkit-box-shadow: #e2df25 0px -15px 30px 5px inset;
+	box-shadow: #f7e013 0px -15px 30px 5px inset;
+}
+.button:active {
+	top: 1px;
+}
+.button2 {
+	text-transform: capitalize;
+	cursor: pointer;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px #ddb74e;
+	-webkit-box-shadow: #d35e27 0px -15px 30px 5px inset;
+	box-shadow: #d33c37 0px -15px 30px 5px inset;
+	padding-top: 10px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	border-radius: 5px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #c77274;
+	border-bottom: 3px solid #72633f;
+	background: #e2943b;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: ease;
+	transition-property: background;
+	transition-duration: 300ms;
+	transition-timing-function: ease;
+	outline: none;
+	position: relative;
+}
+.button2:hover {
+    background: #3ea8e6;
+    -webkit-box-shadow: #239fc5 0px -15px 30px 5px inset;
+	box-shadow: #15718d 0px -15px 30px 5px inset;
+}
+.button2:active {
+	top: 1px;
+}
